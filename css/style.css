@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/*----------NAVBAR-----------*/
+.navbar{
+	font-weight: 700; 
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: rgb(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img{
+	height: 32px;
+}
+.navbar-nav li{
+	padding-right: 10px; 
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+	padding-top: 12px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+
+/*-----------LANDING_PAGE--------------*/
+.carousel-item{
+	min-height: 400px;
+}
+.carousel-img-1{
+	background: url('../img/macb.jpg') no-repeat center;
+	background-size: cover;
+}
+.carousel-img-2{
+	background: url('../img/cabin.jpg') no-repeat center;
+	background-size: cover;
+}
+.carousel-img-3{
+	background: url('../img/chair.jpg') no-repeat center;
+	background-size: cover;
+}
+.dark-overlay-carousel{
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.bgdrop{
+	background: rgba(0, 0, 0, 0);
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #fff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+/*END_CAROUSEL_____________________*/
+
+#homeIcon .fas{
+	font-size: 30px;
+}
+
+
+/*END_HOME_ICONS____________________*/
+
+#getStarted{
+	position: relative;
+	background: url(../img/getstart.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 250px; 
+
+}
+
+.dark-overlay{
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+/*_______END_HOME_GET_STARTED___________*/
+
+
+#homeVedio{
+	position: relative;
+	background: url(../img/vedio.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 250px; 
+
+}
+
+.dark-overlay2{
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.fab{
+	font-size: 30px;
+}
+
+/*_______END_HOME_INFO___________*/
+
+#gallery img{
+	min-height: 250px;
+}
+
+/*_______END_GALLERY_INFO___________*/
+
+#copyRight{
+	background: #000;
+}
+
+/*_______END_COPYRIGHT_INFO___________*/
+
+
+#aboutUsHeader{
+	background: url(../img/aboutus.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 300px;
+	background-attachment: fixed;
+}
+.dark-overlay-about{
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	height:48%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#iconBoxes .fab .fas{
+	font-size: 30px;
+	margin-bottom: 20px;
+}#iconBoxes .fas{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/*_______END_ABOUT_US_INFO___________*/
+
+#services{
+	background: url(../img/sevice.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 270px;
+	background-attachment: fixed;
+}
+
+.dark-overlay-services{
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	height: 43%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+/*_______END_SERVICES___________*/
+
+#blog{
+	background: url(../img/blog.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 250px;
+	background-attachment: fixed;
+}
+.dark-overlay-blog{
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	height: 40%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+/*_______END_BLOG___________*/
+
+#contact{
+	background: url(../img/contact.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 250px;
+	background-attachment: fixed;
+}
+.dark-overlay-contact{
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	height: 40%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+/*_______END_CONTACT___________*/
+
+
+
+
+@media(max-widht:480px){
+	.carousel h2{
+		font-size: 2.5rem;
+		color: #ff0000;
+	}
+}
+	
+
+
